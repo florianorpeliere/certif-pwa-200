@@ -1,0 +1,10 @@
+{
+  "name": "certif-pwa-200",
+  "version": "1.0.0",
+  "author": "Florian Orpelière",
+  "description": "Certification for PWA 200",
+  "main": "index.js",
+  "scripts": {
+  },
+  "license": "MIT"
+}

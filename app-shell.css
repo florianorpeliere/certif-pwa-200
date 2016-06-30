@@ -1,0 +1,34 @@
+.mdl-layout__content {
+  padding: 20px;
+}
+
+.heart {
+  font-size: 1.4em;
+  color: #ff79c6;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+}
+
+#scientists {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.scientist-card {
+  width: 320px;
+  height: 400px;
+  margin: 20px;
+  transition: all 1s ease;
+}
+
+.fullcard {
+  width: 100%;
+  height: 550px;
+}
+
+.fullcard .scientist-information {
+  height: 220px;
+}

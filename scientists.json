@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Alan Turing",
+    "domain": "Mathematics",
+    "century": "20",
+    "imageUrl": "http://media.gizmodo.co.uk/wp-content/uploads/2013/12/alan-turing.jpg"
+  },
+  {
+    "name": "Albert Einstein",
+    "domain": "Physics",
+    "century": "20",
+    "imageUrl": "http://www.thegreatcourses.com/media/catalog/product/cache/1/image/800x600/0f396e8a55728e79b48334e699243c07/8/1/8122---base_image_4.1424268713.jpg"
+  },
+  {
+    "name": "Fritz Haber",
+    "domain": "Chimie",
+    "century": "20",
+    "imageUrl": "http://gohighbrow.com/wp-content/uploads/2015/03/18.jpg"
+  }
+]

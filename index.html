@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Scientidex</title>
+    <link rel="stylesheet" href="app-shell.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.green-red.min.css" />
+    <link rel="preload" href="app-shell.css" as="style" onload="this.rel='stylesheet'">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script defer src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Welcome to Scientidex</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="">Progressive Web App</a>
+          </nav>
+        </div>
+      </header>
+
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Welcome to Scientidex</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Progressive Web App</a>
+          <a class="mdl-navigation__link" href="">Github</a>
+          <a class="mdl-navigation__link" href="">@florpeliere</a>
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div id="scientists" class="list">
+
+          </div>
+        </div>
+      </main>
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">Scientidex</div>
+          <ul class="mdl-mini-footer__link-list">
+            <li>Make with <span class="heart">♥</span> by @florpeliere</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
