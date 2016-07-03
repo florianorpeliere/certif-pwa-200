@@ -4,7 +4,10 @@
   "author": "Florian Orpelière",
   "description": "Certification for PWA 200",
   "main": "index.js",
-  "scripts": {
-  },
-  "license": "MIT"
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
 }

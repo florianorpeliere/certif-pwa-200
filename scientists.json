@@ -3,18 +3,56 @@
     "name": "Alan Turing",
     "domain": "Mathematics",
     "century": "20",
-    "imageUrl": "http://media.gizmodo.co.uk/wp-content/uploads/2013/12/alan-turing.jpg"
+    "imageUrl": "http://media.gizmodo.co.uk/wp-content/uploads/2013/12/alan-turing.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Alan_Turing",
+    "bestInnovation": "Turing Machine"
   },
   {
     "name": "Albert Einstein",
     "domain": "Physics",
     "century": "20",
-    "imageUrl": "http://www.thegreatcourses.com/media/catalog/product/cache/1/image/800x600/0f396e8a55728e79b48334e699243c07/8/1/8122---base_image_4.1424268713.jpg"
+    "imageUrl": "http://www.thegreatcourses.com/media/catalog/product/cache/1/image/800x600/0f396e8a55728e79b48334e699243c07/8/1/8122---base_image_4.1424268713.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Albert_Einstein",
+    "bestInnovation": "E=mc2"
   },
   {
     "name": "Fritz Haber",
     "domain": "Chimie",
     "century": "20",
-    "imageUrl": "http://gohighbrow.com/wp-content/uploads/2015/03/18.jpg"
+    "imageUrl": "http://gohighbrow.com/wp-content/uploads/2015/03/18.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Fritz_Haber",
+    "bestInnovation": "Haber process (artificial nitrogen fixation)"
+  },
+  {
+    "name": "Henri Poincaré",
+    "domain": "Mathematics",
+    "century": "19",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Henri_Poincar%C3%A9-2.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+    "bestInnovation": "Theory of relativity"
+  },
+  {
+    "name": "Linus Torvalds",
+    "domain": "Computer Science",
+    "century": "20",
+    "imageUrl": "http://static5.businessinsider.com/image/4d6c271ccadcbb3b132c0000/linus-torvalds-loves-his-macbook-air.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Linus_Torvalds",
+    "bestInnovation": "Linux Kernel"
+  },
+  {
+    "name": "Bjarne Stroustrup",
+    "domain": "Computer Science",
+    "century": "19",
+    "imageUrl": "http://www.stroustrup.com/Bjarne.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Bjarne_Stroustrup",
+    "bestInnovation": "C++ Language"
+  },
+  {
+    "name": "Dennis Ritchie",
+    "domain": "Computer Science",
+    "century": "20",
+    "imageUrl": "https://www.wired.com/wp-content/uploads/blogs/wiredenterprise/wp-content/uploads/2011/10/ritchie.jpg",
+    "wikiPage": "https://fr.wikipedia.org/wiki/Dennis_Ritchie",
+    "bestInnovation": "C Language"
   }
 ]

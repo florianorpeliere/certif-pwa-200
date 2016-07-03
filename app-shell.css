@@ -1,5 +1,5 @@
-.mdl-layout__content {
-  padding: 20px;
+iframe {
+  display: none;
 }
 
 .heart {
@@ -10,6 +10,10 @@
   transform: scale(.9);
 }
 
+.display {
+  display: block;
+}
+
 #scientists {
   display: flex;
   flex: 1 1 auto;
@@ -17,18 +21,43 @@
   flex-wrap: wrap;
 }
 
+.scientist-image {
+  background-size: cover;
+}
+
 .scientist-card {
-  width: 320px;
   height: 400px;
   margin: 20px;
   transition: all 1s ease;
 }
 
+.scientist-first-information {
+  margin-right: 20px;
+}
+
+.scientist-information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 98%;
+}
+
+.scientist-more-information {
+  display: none;
+  flex-grow: 2;
+}
+
 .fullcard {
   width: 100%;
   height: 550px;
+  order: -1;
 }
 
-.fullcard .scientist-information {
-  height: 220px;
+.fullcard .scientist-image {
+  padding: 0;
+}
+
+.fullcard .scientist-more-information {
+  display: block;
+  height: 500px;
 }
