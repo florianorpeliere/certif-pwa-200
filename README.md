@@ -3,7 +3,7 @@
 * Prendre un screenshot du load de l'application avec chrome.
 * Mettre en cache le app-shell lors de l'installation du service worker.
 * Prendre un second screenshot du load de l'application, il devrait être meilleur.
-* Ajouter un mode offline (cache dynamic)
+* Ajouter un mode offline (cache dynamique)
 * Ajouter un manifest
 * Vérifier que la bannière fonctionne
 * Ajouter la prise en compte de la push API (tester seulement avec l'outil chrome)
