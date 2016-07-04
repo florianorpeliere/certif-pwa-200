@@ -22,11 +22,10 @@
 
   function addClickEvent($scientists) {
     const main = document.querySelector('main');
-    const clickFn = (event) => {
-      console.log(event);
-      const scientistCard = event.target.parentNode.parentNode;
-      const iframe = scientistCard.querySelector('iframe');
-      scientistCard.classList.toggle('fullcard');
+
+    const clickFn = (element) => {
+      const iframe = element.querySelector('iframe');
+      element.classList.toggle('fullcard');
       if(!iframe.src) {
         iframe.src = iframe.dataset.src;
       }
@@ -36,9 +35,9 @@
       main.scrollTop = 0;
     };
 
-    $scientists.querySelectorAll('.scientist-button-info')
+    $scientists.querySelectorAll('.scientist-card')
       .forEach((element) => {
-        element.addEventListener('click', clickFn);
+        element.querySelector('.scientist-button-info').addEventListener('click', clickFn.bind(null, element));
       });
   }
 
