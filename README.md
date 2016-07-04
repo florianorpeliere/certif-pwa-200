@@ -1,8 +1,8 @@
 # certif-pwa-200
 
-* Prendre un screenshot du load de l'application avec chrome.
+* Sauvegarder la timeline de chrome. (clic droit sur la timeline "Save Timeline Data")
 * Mettre en cache le app-shell lors de l'installation du service worker.
-* Prendre un second screenshot du load de l'application, il devrait être meilleur.
+* Sauvegarder une nouvelle fois la timeline de chrome, il devrait être meilleur.
 * Ajouter un mode offline (cache dynamique)
 * Ajouter un manifest
 * Vérifier que la bannière fonctionne
