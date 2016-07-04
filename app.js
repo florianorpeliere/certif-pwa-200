@@ -23,6 +23,7 @@
   function addClickEvent($scientists) {
     const main = document.querySelector('main');
     const clickFn = (event) => {
+      console.log(event);
       const scientistCard = event.target.parentNode.parentNode;
       const iframe = scientistCard.querySelector('iframe');
       scientistCard.classList.toggle('fullcard');
@@ -42,7 +43,7 @@
   }
 
   function createScientistDOM(scientist) {
-    return `<div class="scientist-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--3-col-desktop">
+    return `<div class="scientist-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-cell--3-col-desktop">
       <div class="scientist-image mdl-card__title mdl-card--expand" style="background-image: url('${scientist.imageUrl}');">
       </div>
       <div class="scientist-information mdl-card__supporting-text">
