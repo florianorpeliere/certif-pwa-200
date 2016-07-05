@@ -10,3 +10,5 @@
       "gcm_sender_id": "285305746164"
       Vous n'avez pas besoin de la Google Console
       Utilisez l'outil chrome pour tester la Push API
+
+### Question Bonus : Pourquoi ne peut on pas cacher l'iframe ?
